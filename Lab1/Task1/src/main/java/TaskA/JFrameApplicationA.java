@@ -1,7 +1,9 @@
+package TaskA;
+
 import javax.swing.*;
 import java.awt.*;
 
-public class JFrameApplication {
+public class JFrameApplicationA {
     private JFrame frame;
     private JPanel panelFlow;
     private JPanel panelGrid;
@@ -19,7 +21,7 @@ public class JFrameApplication {
     private boolean started = false;
 
 
-    JFrameApplication() {
+    JFrameApplicationA() {
         frame = new JFrame("Task1_A");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         //frame.setSize(500, 500);
@@ -110,6 +112,6 @@ public class JFrameApplication {
     }
 
     public static void main(String[] args) {
-        JFrameApplication app = new JFrameApplication();
+        JFrameApplicationA app = new JFrameApplicationA();
     }
 }
