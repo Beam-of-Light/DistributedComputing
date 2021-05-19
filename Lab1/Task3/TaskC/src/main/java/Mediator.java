@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -7,12 +5,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Mediator {
     public static Random random = new Random();
 
-    private LinkedList<Integer> smokingItems;
     public AtomicInteger smokingItemsID;
 
 
     Mediator() {
-        smokingItems = new LinkedList<>(Arrays.asList(0, 1, 2));
         smokingItemsID = new AtomicInteger(-1);
     }
 

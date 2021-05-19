@@ -1,10 +1,10 @@
 import java.util.concurrent.Semaphore;
 
 public class Smoker implements Runnable {
-    private SmokingItem smokingItem;
-    private Semaphore semaphore;
-    private Mediator mediator;
-    private String smokerItemName;
+    private final SmokingItem smokingItem;
+    private final Semaphore semaphore;
+    private final Mediator mediator;
+    private final String smokerItemName;
 
     Smoker(SmokingItem smokingItem, Semaphore semaphore, Mediator mediator, String smokerItemName) {
         this.smokingItem = smokingItem;
