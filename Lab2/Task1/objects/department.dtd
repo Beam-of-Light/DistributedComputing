@@ -1,0 +1,12 @@
+<!ELEMENT department (professor)*>
+        <!ATTLIST department
+                name CDATA #REQUIRED
+                code CDATA #REQUIRED>
+        <!ELEMENT professor (discipline)*>
+        <!ATTLIST professor
+                name CDATA #REQUIRED>
+        <!ELEMENT discipline (#PCDATA)>
+        <!ATTLIST discipline
+                course CDATA #REQUIRED
+                name CDATA #REQUIRED
+                specialtyCode CDATA #REQUIRED>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE department SYSTEM "department.dtd">
+
+<department name="Intelligent Software Systems" code="121">
+    <professor name="Oleksandr I. Provotar">
+        <discipline name="Theory of Algorithms and Mathematical Logic"
+                    course="2" specialtyCode="121"/>
+        <discipline name="Fuzzy Logics"
+                    course="5" specialtyCode="121"/>
+        <discipline name="Actual Issues of Bioinformatics"
+                    course="6" specialtyCode="121"/>
+    </professor>
+    <professor name="Maksym M. Veres">
+        <discipline name="Programming"
+                    course="1" specialtyCode="121"/>
+        <discipline name="Methods of Object-Oriented"
+                    course="5" specialtyCode="122"/>
+        <discipline name="Distributed Computing"
+                    course="3" specialtyCode="121"/>
+    </professor>
+    <professor name="Yaroslav M. Linder">
+        <discipline name="Discrete Math"
+                    course="1" specialtyCode="121"/>
+        <discipline name="Discrete Math"
+                    course="1" specialtyCode="122"/>
+        <discipline name="Programming"
+                    course="1" specialtyCode="121"/>
+    </professor>
+</department>
